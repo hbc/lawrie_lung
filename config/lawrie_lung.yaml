@@ -1,0 +1,705 @@
+details:
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 1020
+  files:
+  - ../inputs/orig/Sample_10-1020_v1/10-1020_v1_141121_L002_R1.fastq.gz
+  - ../inputs/orig/Sample_10-1020_v1/10-1020_v1_141121_L002_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: female
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 1051
+  files:
+  - ../inputs/orig/Sample_11-1051_v1/11-1051_v1_141121_L002_R1.fastq.gz
+  - ../inputs/orig/Sample_11-1051_v1/11-1051_v1_141121_L002_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 1062
+  files:
+  - ../inputs/orig/Sample_12-1062_v1/12-1062_v1_141121_L002_R1.fastq.gz
+  - ../inputs/orig/Sample_12-1062_v1/12-1062_v1_141121_L002_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: female
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 130
+  files:
+  - ../inputs/orig/Sample_130/130_121109_L007_R1.fastq.gz
+  - ../inputs/orig/Sample_130/130_121109_L007_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 135
+  files:
+  - ../inputs/orig/Sample_135/135_121109_L008_R1.fastq.gz
+  - ../inputs/orig/Sample_135/135_121109_L008_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 37
+  files:
+  - ../inputs/orig/Sample_1-37_v1/1-37_v1_141121_L001_R1.fastq.gz
+  - ../inputs/orig/Sample_1-37_v1/1-37_v1_141121_L001_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 153
+  files:
+  - ../inputs/orig/Sample_153/153_121109_L008_R1.fastq.gz
+  - ../inputs/orig/Sample_153/153_121109_L008_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 165
+  files:
+  - ../inputs/orig/Sample_165/165_121115_L002_R1.fastq.gz
+  - ../inputs/orig/Sample_165/165_121115_L002_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: female
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 169
+  files:
+  - ../inputs/orig/Sample_169/169_121109_L007_R1.fastq.gz
+  - ../inputs/orig/Sample_169/169_121109_L007_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 171
+  files:
+  - ../inputs/orig/Sample_171/171_121115_L001_R1.fastq.gz
+  - ../inputs/orig/Sample_171/171_121115_L001_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: female
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 174
+  files:
+  - ../inputs/orig/Sample_174/174_121115_L001_R1.fastq.gz
+  - ../inputs/orig/Sample_174/174_121115_L001_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 179
+  files:
+  - ../inputs/orig/Sample_179/179_121109_L008_R1.fastq.gz
+  - ../inputs/orig/Sample_179/179_121109_L008_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: female
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 180
+  files:
+  - ../inputs/orig/Sample_180/180_121115_L001_R1.fastq.gz
+  - ../inputs/orig/Sample_180/180_121115_L001_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: female
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 186
+  files:
+  - ../inputs/orig/Sample_186/186_121109_L007_R1.fastq.gz
+  - ../inputs/orig/Sample_186/186_121109_L007_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: female
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 190
+  files:
+  - ../inputs/orig/Sample_190/190_121115_L001_R1.fastq.gz
+  - ../inputs/orig/Sample_190/190_121115_L001_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 1071
+  files:
+  - ../inputs/orig/Sample_2-1071_v1/2-1071_v1_141121_L001_R1.fastq.gz
+  - ../inputs/orig/Sample_2-1071_v1/2-1071_v1_141121_L001_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: female
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 283
+  files:
+  - ../inputs/orig/Sample_283/283_121115_L002_R1.fastq.gz
+  - ../inputs/orig/Sample_283/283_121115_L002_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 287
+  files:
+  - ../inputs/orig/Sample_287/287_121115_L002_R1.fastq.gz
+  - ../inputs/orig/Sample_287/287_121115_L002_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 1005
+  files:
+  - ../inputs/orig/Sample_3-1005_v1/3-1005_v1_141121_L001_R1.fastq.gz
+  - ../inputs/orig/Sample_3-1005_v1/3-1005_v1_141121_L001_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 357
+  files:
+  - ../inputs/orig/Sample_357/357_121109_L007_R1.fastq.gz
+  - ../inputs/orig/Sample_357/357_121109_L007_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 387
+  files:
+  - ../inputs/orig/Sample_387/387_121109_L008_R1.fastq.gz
+  - ../inputs/orig/Sample_387/387_121109_L008_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: female
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 269
+  files:
+  - ../inputs/orig/Sample_4-269_v1/4-269_v1_141121_L001_R1.fastq.gz
+  - ../inputs/orig/Sample_4-269_v1/4-269_v1_141121_L001_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 436
+  files:
+  - ../inputs/orig/Sample_436/436_121115_L001_R1.fastq.gz
+  - ../inputs/orig/Sample_436/436_121115_L001_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 437
+  files:
+  - ../inputs/orig/Sample_437/437_121115_L002_R1.fastq.gz
+  - ../inputs/orig/Sample_437/437_121115_L002_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 438
+  files:
+  - ../inputs/orig/Sample_438/438_121115_L002_R1.fastq.gz
+  - ../inputs/orig/Sample_438/438_121115_L002_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 444
+  files:
+  - ../inputs/orig/Sample_444/444_121115_L001_R1.fastq.gz
+  - ../inputs/orig/Sample_444/444_121115_L001_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: female
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 445
+  files:
+  - ../inputs/orig/Sample_445/445_121109_L008_R1.fastq.gz
+  - ../inputs/orig/Sample_445/445_121109_L008_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: female
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 1078
+  files:
+  - ../inputs/orig/Sample_5-1078_v1/5-1078_v1_141121_L001_R1.fastq.gz
+  - ../inputs/orig/Sample_5-1078_v1/5-1078_v1_141121_L001_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: female
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 279
+  files:
+  - ../inputs/orig/Sample_6-279_v1/6-279_v1_141121_L001_R1.fastq.gz
+  - ../inputs/orig/Sample_6-279_v1/6-279_v1_141121_L001_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 64
+  files:
+  - ../inputs/orig/Sample_64/64_121109_L007_R1.fastq.gz
+  - ../inputs/orig/Sample_64/64_121109_L007_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: female
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 282
+  files:
+  - ../inputs/orig/Sample_7-282_v1/7-282_v1_141121_L002_R1.fastq.gz
+  - ../inputs/orig/Sample_7-282_v1/7-282_v1_141121_L002_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 82
+  files:
+  - ../inputs/orig/Sample_82/82_121109_L007_R1.fastq.gz
+  - ../inputs/orig/Sample_82/82_121109_L007_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 441
+  files:
+  - ../inputs/orig/Sample_8-441_v1/8-441_v1_141121_L002_R1.fastq.gz
+  - ../inputs/orig/Sample_8-441_v1/8-441_v1_141121_L002_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 450
+  files:
+  - ../inputs/orig/Sample_9-450_v1/9-450_v1_141121_L002_R1.fastq.gz
+  - ../inputs/orig/Sample_9-450_v1/9-450_v1_141121_L002_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: male
+- algorithm:
+    aligner: bwa
+    coverage_interval: exome
+    mark_duplicates: true
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    variant_regions: ../inputs/S04380110_Regions.bed
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: 95
+  files:
+  - ../inputs/orig/Sample_95/95_121115_L002_R1.fastq.gz
+  - ../inputs/orig/Sample_95/95_121115_L002_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: ph_lung
+    ped: ../inputs/metadata/PH_Lung_Exome_All.ped
+    sex: female
+fc_date: '2015-03-03'
+fc_name: lawrie_lung
+upload:
+  dir: ../final
